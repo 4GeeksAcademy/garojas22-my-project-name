@@ -1,0 +1,106 @@
+
+ /* *{
+	border: 1px dashed red;
+	min-height: 10px;
+}       */
+
+/* instagram nav bar */
+
+.navbar-brand{
+    display: flex;
+    width: 840px;
+}
+.btn-group{
+padding-right: 25px;
+}
+.fa-instagram{
+    padding: 3px;
+    font-size: 120%;
+}
+
+/* usuario de la publicacion */
+
+.card-header{
+display: flexbox;
+}
+.usuario{
+display: flex;
+}
+#nombre-usuario {
+font-size: 100%;
+margin: auto;
+width: 370px;
+}
+.usuario img {
+border-radius: 50%;
+width: 60px;
+height: 60px;
+margin-top: auto ;
+padding: 2%;
+}
+#li_header {
+list-style: none;
+width: 30px;
+font-size: 1rem;
+margin: auto;
+} 
+
+/* iconos del post */
+
+.flex{
+display: flex;
+}
+#heart {
+color: red;
+padding-left: 12px;
+font-size: 1.5rem;
+list-style: none;
+} 
+#coment {
+padding-left: 12px;
+font-size: 1.6rem;
+list-style: none;
+} 
+#plane {
+padding-left: 12px;
+font-size: 1.6rem;
+list-style: none;
+}
+#share{
+list-style: none;
+font-size: 1.6rem;
+margin-left: 340px;
+}
+
+/* likes/comentarios/todo eso */
+
+.likes{
+font-size: 14px;
+padding-left: 5px;
+}
+
+#Agregar{
+display: flex;
+}
+.ike img{
+border-radius: 50%;
+width: 29px;
+height: 29px;
+margin: 12px;
+}
+#nuevocomentario {
+margin: auto;
+width: 500px;
+color: rgb(65, 65, 65);
+
+}
+input {
+border: none;
+border-bottom: 0px grey solid;
+}
+
+#fecha {
+padding-left: 14px;
+color: rgb(151, 151, 151);
+font-size: 12px;
+}
